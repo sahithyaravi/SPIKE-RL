@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 SPIKE-RL: Video-LLMs meet Bayesian Surprise
+# SPIKE-RL: Video-LLMs meet Bayesian Surprise
 
 [![Paper](https://img.shields.io/badge/ICLR_2026-Paper-red)](https://iclr.cc/virtual/2026/poster/10009599)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
@@ -34,7 +34,7 @@ We introduce **SPIKE**, an inference-time framework that quantifies **Bayesian S
 
 --- -->
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Set up & Activate a Virtual Environment
 ```bash
