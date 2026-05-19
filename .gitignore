@@ -1,0 +1,46 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore JSONL datasets or logs
+*.jsonl
+
+# Ignore virtual environment folders
+venv/
+.env/
+.venv/
+
+# Ignore logs
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore data folder
+data/
+
+# ignore .zip
+*.zip
+*.tar.gz
+*.tar
+*.rar
