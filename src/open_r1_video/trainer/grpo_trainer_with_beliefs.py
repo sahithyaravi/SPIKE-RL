@@ -62,7 +62,7 @@ from open_r1_video.belief_tracker import qwen_surprise_tracker, score_window_hyp
 from open_r1_video.weighted_captioning import adaptive_frame_sampling_pdf
 from open_r1_video.video_processing import extract_k_frames_decord_cpu
 from .dataset import get_data
-# from .patch_rope_index import _get_rope_index_patched
+from .patch_rope_index import _get_rope_index_patched
 from typing import List
 from torch.nn import functional as F
 
@@ -80,8 +80,8 @@ from peft import LoraConfig, get_peft_model
 
 
 VisionAttention.is_causal=False
-# Qwen2VLForConditionalGeneration.get_rope_index = _get_rope_index_patched
-# Qwen2_5_VLForConditionalGeneration.get_rope_index = _get_rope_index_patched
+Qwen2VLForConditionalGeneration.get_rope_index = _get_rope_index_patched
+Qwen2_5_VLForConditionalGeneration.get_rope_index = _get_rope_index_patched
 print("Applied Qwen2-VL device consistency fix")
 # What we call a reward function is a callable that takes a list of prompts and completions and returns a list of
 # rewards. When it's a string, it's a model ID, so it's loaded as a pretrained model.
